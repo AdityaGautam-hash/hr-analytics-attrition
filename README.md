@@ -1,7 +1,7 @@
 # HR Analytics — Employee Attrition Dashboard
 
 ## Project Overview
-Analyzed IBM HR Analytics dataset of 1,470 employees to identify key drivers of employee attrition. Built an end-to-end pipeline covering Python EDA, MySQL database with analytical SQL queries, and an interactive Power BI dashboard.
+Analyzed IBM HR Analytics dataset of 1,470 employees to identify key drivers of employee attrition. Built an end-to-end analytics pipeline covering Python EDA, SQL-based analysis, and an interactive Power BI dashboard to uncover key attrition drivers.
 
 ## Problem Statement
 The company has a 16.12% attrition rate — higher than the industry average of 10-12%. The goal was to identify which departments, age groups, and work conditions are driving employees to leave, and provide actionable recommendations to HR.
@@ -29,15 +29,19 @@ Interactive Power BI dashboard visualizing attrition trends across departments, 
 
 ![Dashboard](dashboard.png)
 
-## Project Structure
+## 📁 Project Structure
 End-to-end analytics workflow from data exploration to dashboard visualization.
+
 hr_analytics/
 │
-├── eda.ipynb                          — Python EDA and visualizations
-├── database.ipynb                     — ETL pipeline, loads data into MySQL
-├── analysis_queries.sql               — SQL queries (CASE WHEN, CTEs, Window Functions)
-├── HR_Analytics_Dashboard.pbix        — Power BI dashboard
-└── WA_Fn-UseC_-HR-Employee-Attrition.csv  — Dataset
+├── eda.ipynb                       # Python EDA and visualizations
+├── database.ipynb                  # ETL pipeline, loads data into MySQL
+├── analysis_queries.sql            # SQL queries (CTEs, Window Functions)
+├── HR_Analytics_Dashboard.pbix     # Power BI dashboard
+└── dataset.csv                     # Source dataset
 
 ## Dataset
 IBM HR Analytics Employee Attrition Dataset — [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+
+## 📌 Conclusion
+This project highlights how data analysis can uncover key workforce trends and support HR teams in making informed retention decisions.
