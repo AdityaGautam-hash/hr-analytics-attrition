@@ -24,7 +24,7 @@ The company has a 16.12% attrition rate — higher than the industry average of 
 - Review compensation for frontline sales roles — Sales Representatives are paid ₹6,220 below department average
 
 ## Dashboard Preview
-![Dashboard](dashboard.png)
+![Dashboard](hr_analytics/dashboard.png)
 
 ## Project Structure
 hr_analytics/
