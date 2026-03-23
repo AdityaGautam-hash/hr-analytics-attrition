@@ -6,10 +6,11 @@ Analyzed IBM HR Analytics dataset of 1,470 employees to identify key drivers of 
 ## Problem Statement
 The company has a 16.12% attrition rate — higher than the industry average of 10-12%. The goal was to identify which departments, age groups, and work conditions are driving employees to leave, and provide actionable recommendations to HR.
 
-## Tools Used
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
-- MySQL (CTEs, Window Functions, Aggregations)
-- Power BI (DAX, Power Query)
+## 🛠️ Tools & Technologies
+
+- **Python**: Pandas, NumPy, Matplotlib, Seaborn  
+- **MySQL**: CTEs, Window Functions, Aggregations  
+- **Power BI**: DAX, Power Query  
 
 ## Key Findings
 - Overall attrition rate: 16.12%
@@ -23,10 +24,13 @@ The company has a 16.12% attrition rate — higher than the industry average of 
 - Introduce retention programs for employees under 25
 - Review compensation for frontline sales roles — Sales Representatives are paid ₹6,220 below department average
 
-## Dashboard Preview
+## 📊 Dashboard Preview
+Interactive Power BI dashboard visualizing attrition trends across departments, age groups, salary, and overtime patterns.
+
 ![Dashboard](dashboard.png)
 
 ## Project Structure
+End-to-end analytics workflow from data exploration to dashboard visualization.
 hr_analytics/
 │
 ├── eda.ipynb                          — Python EDA and visualizations
