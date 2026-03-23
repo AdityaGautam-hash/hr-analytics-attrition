@@ -32,8 +32,7 @@ Interactive Power BI dashboard visualizing attrition trends across departments, 
 ## 📁 Project Structure
 End-to-end analytics workflow from data exploration to dashboard visualization.
 
-hr_analytics/
-│
+
 ├── eda.ipynb                       # Python EDA and visualizations
 ├── database.ipynb                  # ETL pipeline, loads data into MySQL
 ├── analysis_queries.sql            # SQL queries (CTEs, Window Functions)
