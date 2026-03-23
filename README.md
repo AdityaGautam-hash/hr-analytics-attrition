@@ -1,15 +1,14 @@
-
 # HR Analytics — Employee Attrition Dashboard
 
 ## Project Overview
-Analyzed IBM HR Analytics dataset of 1,470 employees to identify key drivers of employee attrition. Built an end-to-end pipeline covering Python EDA, MySQL database design, and an interactive Power BI dashboard.
+Analyzed IBM HR Analytics dataset of 1,470 employees to identify key drivers of employee attrition. Built an end-to-end pipeline covering Python EDA, MySQL database with analytical SQL queries, and an interactive Power BI dashboard.
 
 ## Problem Statement
 The company has a 16.12% attrition rate — higher than the industry average of 10-12%. The goal was to identify which departments, age groups, and work conditions are driving employees to leave, and provide actionable recommendations to HR.
 
 ## Tools Used
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
-- MySQL (CTEs, Window Functions, Star Schema)
+- MySQL (CTEs, Window Functions, Aggregations)
 - Power BI (DAX, Power Query)
 
 ## Key Findings
@@ -25,15 +24,16 @@ The company has a 16.12% attrition rate — higher than the industry average of 
 - Review compensation for frontline sales roles — Sales Representatives are paid ₹6,220 below department average
 
 ## Dashboard Preview
-[Add screenshot here]
+![Dashboard](dashboard.png)
 
 ## Project Structure
 hr_analytics/
 │
-├── eda.ipynb — Python EDA and visualizations
-├── database.ipynb — MySQL schema and SQL queries
-├── HR_Analytics_Dashboard.pbix — Power BI dashboard
-└── WA_Fn-UseC_-HR-Employee-Attrition.csv — Dataset
+├── eda.ipynb                          — Python EDA and visualizations
+├── database.ipynb                     — ETL pipeline, loads data into MySQL
+├── analysis_queries.sql               — SQL queries (CASE WHEN, CTEs, Window Functions)
+├── HR_Analytics_Dashboard.pbix        — Power BI dashboard
+└── WA_Fn-UseC_-HR-Employee-Attrition.csv  — Dataset
 
 ## Dataset
 IBM HR Analytics Employee Attrition Dataset — [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
